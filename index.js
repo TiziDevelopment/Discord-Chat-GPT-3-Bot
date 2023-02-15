@@ -5,7 +5,7 @@ const client = new Discord.Client({
 
 const openai = require('openai');
 
-openai.apiKey = "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";
+openai.apiKey = "YOUR_KEY_HERE";
 
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.tag}!`);
@@ -32,4 +32,4 @@ client.on('message', msg => {
 	}
 });
 
-client.login('MTA1MTE5NjM1NTg4NTkzNjgxMQ.GWDp6E.vGzZvhQUJrr7fnTYLuurrOxBORN9o-MKM7X9EM');
+client.login('BOT_TOKEN');
